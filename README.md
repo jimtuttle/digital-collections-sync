@@ -16,12 +16,12 @@ npm install my-crazy-module --save
 
 ```python
 
-digital-collections-sync [options] [path]
+Usage: digital-collections-sync [options] [path]
 
 Options:
   -a, --all                 equal to -ir
-  -h, --help                show this help message and exit
   -f FILE, --file=FILE      read file paths and fixity from FILE
+  -h, --help                show this help message and exit
   -i, --ignore              ignore files listed ignore files listed
   -l FILE, --log=FILE       write verbose log to FILE
   -p, --path                AWS S3 storage path
