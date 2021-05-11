@@ -14,7 +14,9 @@ npm install my-crazy-module --save
 
 ## Usage 
 
-Usage: digital-collections-sync [options] [path]
+```python
+
+digital-collections-sync [options] [path]
 
 Options:
   -a, --all                 equal to -ir
@@ -25,6 +27,8 @@ Options:
   -p, --path                AWS S3 storage path
   -r, --remote              compare fixity between local storage and AWS using MD5
   -v, --verbose             print verbose output to stdout
+  
+```
 
 ## Usage example
 
